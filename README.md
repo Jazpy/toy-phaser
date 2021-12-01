@@ -1,2 +1,2 @@
 # toy-phaser
-toy haplotype phaser for PhD coursework
+Toy haplotype phaser for PhD coursework
