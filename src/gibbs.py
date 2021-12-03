@@ -23,8 +23,6 @@ class Gibbs:
         else:
           print(f'Main iteration {curr_iter - burn} / {iters}...')
 
-      new_H = []
-
       # Sample from P(h0, h1 | H_i) for all i
       for i, h in enumerate(self.H):
         # Construct H_i, where we exclude the i-th haplo pair
